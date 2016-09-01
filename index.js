@@ -8,6 +8,10 @@ module.exports = {
       impliedStrict: true
     }
   },
+  env: {
+    node: true,
+    jest: true
+  },
   rules: {
     'async/missing-await-in-async-fn': 2,
     'no-tabs': 2,
@@ -42,7 +46,6 @@ module.exports = {
     'no-useless-escape': 'error',
     'no-void': 'error',
     'no-with': 'error',
-    'no-use-before-define': 'error',
     'yoda': 'error',
     'brace-style': 'error',
     'camelcase': 'error',
@@ -59,6 +62,11 @@ module.exports = {
     'no-shadow-restricted-names': 'error',
     'no-shadow': 'error',
     'no-use-before-define': 'error',
-    semi: ['error', 'never']
+    semi: ['error', 'never'],
+    'space-before-blocks': 'error',
+    'space-before-function-paren': ['error', 'never'],
+    'space-in-parens': 'error',
+    'space-infix-ops': 'error',
+    'space-unary-ops': 'error'
   }
 };
