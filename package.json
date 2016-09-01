@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dashbot-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint configuration for dashbot backend javascript",
   "main": "index.js",
   "scripts": {
