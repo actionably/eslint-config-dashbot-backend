@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-dashbot-backend",
+  "version": "1.0.0",
+  "description": "eslint configuration for dashbot backend javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actionably/eslint-config-dashbot-backend.git"
+  },
+  "author": "Jesse Hull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actionably/eslint-config-dashbot-backend/issues"
+  },
+  "homepage": "https://github.com/actionably/eslint-config-dashbot-backend#readme",
+	"peerDependencies": {
+		"babel-eslint": "^6.1.2",
+		"eslint": "^3.4.0",
+		"eslint-plugin-async": "^0.1.1",
+		"eslint-plugin-node": "^2.0.0"
+	}
+}
