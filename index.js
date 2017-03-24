@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['async', 'node'],
+  plugins: ['node'],
   extends: ['eslint:recommended', 'plugin:node/recommended'],
   parserOptions: {
     ecmaVersion: 7,
@@ -13,7 +13,6 @@ module.exports = {
     jest: true
   },
   rules: {
-    'async/missing-await-in-async-fn': 2,
     'no-tabs': 2,
     'no-console': 0,
     'node/no-unpublished-require': 0,
