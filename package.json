@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/actionably/eslint-config-dashbot-backend#readme",
 	"peerDependencies": {
-		"babel-eslint": "^7.2.1",
-		"eslint": "^3.18.0",
-		"eslint-plugin-node": "^4.2.1"
+		"babel-eslint": ">=7.2.1",
+		"eslint": ">=3.18.0",
+		"eslint-plugin-node": ">=4.2.1"
 	}
 }
